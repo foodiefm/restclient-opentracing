@@ -5,7 +5,7 @@ require "restclient/opentracing/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "restclient-opentracing"
-  spec.version       = Restclient::Opentracing::VERSION
+  spec.version       = [RestClient::OpenTracing::VERSION, 'pre'].join('.')
   spec.authors       = ["larte"]
   spec.email         = ["larte@foodie.fm"]
 
