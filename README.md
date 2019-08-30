@@ -1,7 +1,7 @@
 
 [![Build Status](https://travis-ci.com/foodiefm/restclient-opentracing.svg?branch=master)](https://travis-ci.com/foodiefm/restclient-opentracing)
 [![Coverage Status](https://coveralls.io/repos/github/foodiefm/restclient-opentracing/badge.svg?branch=master)](https://coveralls.io/github/foodiefm/restclient-opentracing?branch=master)
-
+[![Gem Version](https://badge.fury.io/rb/restclient-opentracing.svg)](https://badge.fury.io/rb/restclient-opentracing)
 # RestClient::Opentracing
 
 
