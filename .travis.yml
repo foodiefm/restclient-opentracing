@@ -1,14 +1,13 @@
----
 dist: xenial
 language: ruby
 cache: bundler
 rvm:
-  - 2.5
-  - 2.6
+- 2.5
+- 2.6
 before_install: gem install bundler -v 1.17.3
 deploy:
   provider: rubygems
   api_key:
-    secure: YpXx/66ey6SWwPMCbznsSKVlp8zYl4TqMu2fBRoEgljuGV0EWWp/tDUygclE41UElz/BwQP0OUq7Fe1yavJRjWF2wkERl5TfSIvm6/Kz566gJnYN8moU+hW62euXDcOnoO2uGCdJVmasBhEWjEa6MYBGZ3G8rndG79fAHRfT9ekYRb/SsQoZnc5QImpWxyCkbmga/VF1O57f0+aYwJzoQ8F2YDEor+sNo5S/aUPItlxt0HiWH1lv/PJYsXsET+Ri6lnNLWV3wf5OiRnFvaDYvsoxGrUYdBLkGs00UI0+1GMiA2pfF6VjnXuz6JynMAKBF6spFv4ayqROezXJbBn6Edzcrstxjyi/PycTBy+/AyHU6dslqiTnecgfMTgcFoxAwOhg090hZ9eSaYDSXJlIKHjMS47ttVoalxwjz+nT/OO8xyRUx8XMjvaTy2Pe6UZfQSFnlYUo408CCn4BV2au7pwpnQkDElE/whh3PAKu9DdKXLlIkQn9W1+Qte69aWYVEU6nO6EfYve4aMsLQS1m7QiCR/wS1ya2Sg4eHj2YBnUmESvtZdj7MpYRee3o0ed+ZuGydKLk47mj2zNkMoFGHWK5/Bov1QTZEVFcqjEsBBVO/bzJF76hb+fcpkJ7tCzpnDOPKYqNZUwHzQ7USUZQTBX/mwUtoSfM3WA5Zn0buwY=
+    secure: MIjkE4xJsL1sj4dZtaSwlzRSDLblH/cKleWGCTj3T5OW9NP++sNAKlsM0v8Yaj5k7qlsCzfM4j/yK5N18Vt26wqDTIidlltGWWYax5DgyDwLaNmDUENPMbe129GPYK0SWHn9DaPLFmNqXlGvaNMMJ6U/fRHIpg3qYJ2YGL+PBEgBFsIbeHG+7VNVD8lzxyoy0w/MWZKO59sN8feOCA+foUZtnjFBAPqHsicI+fmHHzNjZlZZD0PHDt+YreJceaksVUhm8mIh3NkZdiQPwKhQlP9gofnq82Fq512G8UcWDlvLx8Qs+fmm7AwryW5txBMjJNUhZp5DZ+Q+w8neoY4n8P8wA8L07a58vseE3Fi93z3gV5WF8a4YoYP756mh1kzFLQu4Yn7kNDTy13K5S1FQ4nCaQj++dI2Pd+84QAAYL/SFjHh6SeN1TmWsJlRDUQijBt5YD52I9TvZNiPxvp9aD92IaDcxPuRRuQacGZLbscirJHTax2r/ylIEbdx9yMeJYnRgieLoOj7Ql7T9fXzQrPUltyLLUyK9g+YT4qmwWnp7imqEc9VdZDxNClsLPEBF1vS6F3Vm2vpgRWYVhwsvTSwcAZojmT9JkshgfEkSwHwDuOx9HP6j22Fk+XSbTjMU2Dc2/rJuz3GL5NUmqAVd3YP/ApD1/Etk3xB+owOiOjI=
   on:
     tags: true
