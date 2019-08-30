@@ -15,9 +15,9 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
 
   spec.metadata = {
-    'bug_tracker_uri' => 'https://github.com/foodiefm/redisrb-opentracing/issues',
-    'homepage_uri'    => 'https://github.com/foodiefm/redisrb-opentracing',
-    'source_code_uri' => 'https://github.com/foodiefm/redisrb-opentracing',
+    'bug_tracker_uri' => 'https://github.com/foodiefm/restclient-opentracing/issues',
+    'homepage_uri'    => 'https://github.com/foodiefm/restclient-opentracing',
+    'source_code_uri' => 'https://github.com/foodiefm/restclient-opentracing',
   }
   spec.files         = %w(README.md Rakefile) + Dir.glob("{doc,lib}/**/*")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
